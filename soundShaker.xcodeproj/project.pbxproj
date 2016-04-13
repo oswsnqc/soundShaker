@@ -13,6 +13,9 @@
 		834F74901B37D71200272276 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834F748F1B37D71200272276 /* Images.xcassets */; };
 		834F74931B37D71200272276 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 834F74911B37D71200272276 /* LaunchScreen.xib */; };
 		834F749F1B37D71200272276 /* soundShakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834F749E1B37D71200272276 /* soundShakerTests.swift */; };
+		834F74AE1B37DB7900272276 /* 1a1a1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 834F74AD1B37DB7900272276 /* 1a1a1.mp3 */; };
+		834F74B01B37DB8400272276 /* bach1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 834F74AF1B37DB8400272276 /* bach1.mp3 */; };
+		834F74B21B37DC2900272276 /* 03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 834F74B11B37DC2900272276 /* 03.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		834F74981B37D71200272276 /* soundShakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = soundShakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		834F749D1B37D71200272276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		834F749E1B37D71200272276 /* soundShakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soundShakerTests.swift; sourceTree = "<group>"; };
+		834F74AD1B37DB7900272276 /* 1a1a1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1a1a1.mp3; sourceTree = "<group>"; };
+		834F74AF1B37DB8400272276 /* bach1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bach1.mp3; sourceTree = "<group>"; };
+		834F74B11B37DC2900272276 /* 03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 03.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 				834F748A1B37D71200272276 /* ViewController.swift */,
 				834F748C1B37D71200272276 /* Main.storyboard */,
 				834F748F1B37D71200272276 /* Images.xcassets */,
+				834F74A81B37D8CF00272276 /* sounds */,
 				834F74911B37D71200272276 /* LaunchScreen.xib */,
 				834F74861B37D71200272276 /* Supporting Files */,
 			);
@@ -110,6 +117,16 @@
 				834F749D1B37D71200272276 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		834F74A81B37D8CF00272276 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				834F74B11B37DC2900272276 /* 03.mp3 */,
+				834F74AD1B37DB7900272276 /* 1a1a1.mp3 */,
+				834F74AF1B37DB8400272276 /* bach1.mp3 */,
+			);
+			name = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +209,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				834F74AE1B37DB7900272276 /* 1a1a1.mp3 in Resources */,
+				834F74B21B37DC2900272276 /* 03.mp3 in Resources */,
+				834F74B01B37DB8400272276 /* bach1.mp3 in Resources */,
 				834F748E1B37D71200272276 /* Main.storyboard in Resources */,
 				834F74931B37D71200272276 /* LaunchScreen.xib in Resources */,
 				834F74901B37D71200272276 /* Images.xcassets in Resources */,
